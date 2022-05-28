@@ -24,7 +24,7 @@ Things you may want to cover:
 * ...
 
 
-## Mitrations example 
+# Mitrations example 
 
     rails g model course title:string description:string published:boolean visible:boolean
     
@@ -56,15 +56,6 @@ Access to the console
 
     count
 
-## Rails routes
-
-To list currents routes
-
-    rails routes
-
-List an spedifct route
-
-    rails routes -c course
 
 ## Tricks and tips 
 
