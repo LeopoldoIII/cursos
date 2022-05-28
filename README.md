@@ -50,11 +50,18 @@ Access to the console
 
     Course.create title:"Ruby on Rails v2", description:"N/A", visible: true
 
+## Rollback 
+
+Revert last migration applied 
+
+    db:rollback
+
 ## Rails sql
 
     all
 
     count
+    
 
 ## Rails routes
 
