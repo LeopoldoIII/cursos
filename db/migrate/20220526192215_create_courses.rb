@@ -4,7 +4,7 @@ class CreateCourses < ActiveRecord::Migration[7.0]
       t.string :title
       t.string :description
       t.boolean :published, default: false
-      t.boolean :visible, default: false
+      # t.boolean :visible, default: false
 
       t.timestamps # created_at & updated_at
     end

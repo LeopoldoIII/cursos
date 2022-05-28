@@ -100,3 +100,17 @@ This will give you the Schema information for each
 
     rails g controller courses index new 
 
+## Example Rollback 
+
+    db:rollback
+
+    rails db:migrate
+
+To create a migration file 
+
+    rails g migration add_visible_to_courses visible:boolean
+
+To apply the migration file
+
+    rails rb:rollback STEP=<Number of migrations>
+
